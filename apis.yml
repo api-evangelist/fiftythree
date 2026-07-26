@@ -1,7 +1,28 @@
 aid: fiftythree
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fiftythree.png
 name: FiftyThree
-description: FiftyThree is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FiftyThree, Inc. was a New York City-based technology company that built tools
+  for mobile creativity, best known for Paper (Apple's 2012 iPad App of the Year),
+  the Pencil Bluetooth stylus, and Paste, a collaborative presentation tool. The
+  company raised a Series A led by Andreessen Horowitz (a16z) in 2013 and, in July
+  2014, shipped the FiftyThree SDK so third-party iOS apps such as Procreate and
+  Noteshelf could integrate the Pencil stylus (pairing, palm rejection, surface
+  pressure). FiftyThree's assets and patents were acquired by WeTransfer on August
+  21, 2018, and the standalone products and developer surface were subsequently
+  wound down. This profile is retained as a historical company record; there is no
+  live public web API, developer portal, or OpenAPI to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/fiftythree/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,35 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: WeTransfer
+x-acquired-date: '2018-08-21'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Creativity
+- Design
+- Mobile
+- iPad
+- Stylus
+- SDK
+- Acquired
+- Defunct
 apis: []
+common:
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/FiftyThree
+- type: Press
+  url: http://press.fiftythree.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
